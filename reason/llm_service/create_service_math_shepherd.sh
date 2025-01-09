@@ -7,10 +7,10 @@ WORKER_BASE_PORT=30010
 echo PYTHON_EXECUTABLE=$(which python3)
 PYTHON_EXECUTABLE=$(which python3)
 
-MODEL_BASE=/hpc2ssd/JH_DATA/spooler/qxiao183/workspace/hf_models/
+MODEL_BASE=/home/adithyare/arendu_openr/hf_models
 CUDA_DEVICE_BASE=0
-POLICY_MODEL_NAME=peiyi9979/mistral-7b-sft
-VALUE_MODEL_NAME=peiyi9979/math-shepherd-mistral-7b-prm
+POLICY_MODEL_NAME=Qwen2.5-Math-1.5B-Instruct
+VALUE_MODEL_NAME=Qwen2.5-Math-1.5B-Instruct-PRM-0.1
 MODEL_PATH=$MODEL_BASE/$POLICY_MODEL_NAME
 VALUE_MODEL_PATH=$MODEL_BASE/$VALUE_MODEL_NAME
 
